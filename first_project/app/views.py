@@ -74,4 +74,4 @@ def workdir_view(request):
     for file_element in result_file_list:
         list_directory_elemtnts.append(f'{file_element}, ')
     return HttpResponse(list_directory_elemtnts)
-    # raise NotImplemented
+    raise NotImplemented
